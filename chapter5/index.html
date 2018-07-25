@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <nav>
+        <a href="#FirstLink">"n-child"</a>
+        <a href="#SecondLink">"n-child"</a>
+        <a href="#ThirdLink">"n-child"</a>
+    </nav>
+
     <ul class="top">
         <li class="block">1</li>
         <li class="block">2</li>
@@ -19,7 +25,7 @@
     <span class="inline">Z</span>
     
     <h2 class="title">Article Parent Element</h2>
-    <article class="n-child">
+    <article class="n-child" id="FirstLink">
         <section> A </section>
         <div> X </div>
         <section> B </section>
@@ -28,7 +34,7 @@
     </article>
             
     <h2 class="title">Article Parent Element</h2>
-    <article class="n-type">
+    <article class="n-type" id="SecondLink">
         <section> A </section>
         <section> B </section>
         <aside> Aside </aside>
@@ -38,7 +44,7 @@
     </article>
     
     <h2 class="title">Article Parent Element</h2>
-    <article class="first-of-type">
+    <article class="first-of-type" id="ThirdLink">
         <section> A </section>
         <section> B </section>
         <aside> Aside 1 </aside>
