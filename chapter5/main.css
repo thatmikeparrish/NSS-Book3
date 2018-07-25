@@ -1,0 +1,41 @@
+.top li:after{
+    content: ",";
+}
+.top li:last-child:after {
+    content: "";
+}
+.block {
+    list-style-type: none;
+    display: inline;
+}
+.inline {
+    display: block;
+    border: 1px solid;
+    margin: 25px;
+}
+.n-child :nth-child(even){
+    border: 1px solid;
+}
+.n-type section:nth-of-type(odd) {
+    color: blue;
+}
+.first-of-type aside:first-of-type {
+    background-color: lime;
+}
+.first-of-type section:first-of-type {
+    background-color: purple;
+}
+.three {
+    background-color: orange;
+}
+.three :first-child {
+    background-color: goldenrod;
+}
+.three :last-child {
+    background-color: darkslategray;
+}
+.title {
+    border: 3px dashed gray;
+    background-color: royalblue;
+    width: 100%;
+}
